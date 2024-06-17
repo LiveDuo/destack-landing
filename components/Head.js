@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const defaultTitle = "Destack | Landing page builder"
 const defaultDescription = "Build landing pages visually right in your React or Next.js projects. Deploy them zero further configuration!"
-const defaultImage = '/cover.jpg'
+const defaultImage = '/cover.png'
 
 const SocialHead = ({title = defaultTitle, description = defaultDescription, image = defaultImage, meta = []}) => {
 	return (
