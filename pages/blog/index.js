@@ -19,7 +19,7 @@ const ArticleList = ({posts}) => {
 		<>
 			<SocialHead/>
 			<div className="flex justify-center">
-				<div className="max-w-7xl p-12">
+				<div className="max-w-7xl p-12 mb-24">
 					<div className="mb-24 flex items-center">
 						<h1 className="text-3xl font-bold">Blog Posts</h1>
 					</div>
