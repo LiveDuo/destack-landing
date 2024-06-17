@@ -4,14 +4,24 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export"
+    "postbuild": "next-sitemap",
+    "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "destack": "^3.0.4",
+    "gray-matter": "^4.0.3",
     "next": "^13.5.6",
+    "next-sitemap": "^1.9.12",
+    "plaiceholder": "^3.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
 }
