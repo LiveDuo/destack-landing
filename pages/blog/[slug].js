@@ -49,8 +49,8 @@ const Article = ({post: data, relatedPosts, slug}) => {
 							</h3>
 						</Link>
 					</div>
-					<NextImage className="rounded-lg mb-12" src={`/posts/${slug}${c.data.image}`} objectFit="cover" height={800} width={720} alt={c.data.description}/>
-					<div className="flex justify-start mb-8">
+					<NextImage className="rounded-lg mb-20" src={`/posts/${slug}${c.data.image}`} objectFit="cover" height={800} width={720} alt={c.data.description}/>
+					<div className="flex justify-start mb-4">
 						<div className="flex flex-row justify-start items-center">
 							{c.data.tags.map((tag, i) => 
 								<span key={i} className="inline-block mr-1 px-3 py-1 text-sm font-semibold text-white bg-blue-500 rounded-full">
@@ -60,8 +60,8 @@ const Article = ({post: data, relatedPosts, slug}) => {
 						</div>
 					</div>
 					<div className="flex justify-start">
-						<h1 className="mt-1 text-center text-2xl mb-2">
-							<span style={{backgroundColor: 'white', padding: '8px', lineHeight: 1.8}}>{c.data.title}</span>
+						<h1 className="text-center text-3xl mt-1 mb-2">
+							<h2 style={{backgroundColor: 'white', padding: '8px', lineHeight: 1.8}}>{c.data.title}</h2>
 						</h1>
 					</div>
 					<div className="flex flex-1 flex-col justify-center mt-3 sm:mt-0 mb-12">
