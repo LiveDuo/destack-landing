@@ -20,7 +20,7 @@ const ArticleList = ({posts}) => {
 			<SocialHead/>
 			<div className="max-w-7xl p-12">
 				<div className="mb-24 flex items-center">
-					<h1 className="text-2xl font-bold">Blog Posts</h1>
+					<h1 className="text-3xl font-bold">Blog Posts</h1>
 				</div>
 				{posts.map((c, i) =>
 					<div key={i} className="mt-1 sm:mt-5 flex flex-col sm:flex-row justify-between mb-30">
