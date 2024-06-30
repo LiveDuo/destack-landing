@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.13",
-    "destack": "^3.0.4",
+    "destack": "^3.0.7",
     "gray-matter": "^4.0.3",
     "next": "^13.5.6",
     "next-sitemap": "^1.9.12",
